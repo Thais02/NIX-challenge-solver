@@ -10,18 +10,18 @@ class john:
 
 class config:
     PERSON = john  # Moet bevatten: VOORNAAM, ACHTERNAAM. EMAIL, KETEN_ID, PLAATSNAAM, WINKELNAAM
-    URL = 'https://nixchallenge.nl/'  # Zet hier bijv. https://nixchallenge.nl/ of je finale-link
-    GAMES_TO_PLAY = 1
+    URL: str = 'https://nixchallenge.nl/'  # Zet hier bijv. https://nixchallenge.nl/ of je finale-link
+    GAMES_TO_PLAY: int = 1
 
-    AUTO_CLICK = True  # Speel het spel helemaal zelf, anders geeft de bot hints welk antwoord je zelf moet aanklikken
-    AUTO_FINAL = False  # Probeer de finale automatisch te spelen (experimenteel)
+    AUTO_CLICK: bool = True  # Speel het spel helemaal zelf, anders geeft de bot hints welk antwoord je zelf moet aanklikken
+    AUTO_FINAL: bool = False  # Probeer de finale automatisch te spelen (experimenteel)
 
-    KEEP_OPEN = True  # Houd de browser open elk gespeeld spel
+    KEEP_OPEN: bool = True  # Houd de browser van elk spel open
 
-    DOWNLOAD = True  # Download de foto's van nieuwe gezichten naar de map 'persons'
+    DOWNLOAD: bool = True  # Download de foto's van nieuwe gezichten naar de map 'persons'
 
-    FILL_FORM = False  # Vul het winactie-formulier automatisch in met de gegevens van PERSON
-    SEND_FORM = False  # Verzend het formulier automatisch
+    FILL_FORM: bool = False  # Vul het winactie-formulier automatisch in met de gegevens van PERSON
+    SEND_FORM: bool = False  # Verzend het formulier automatisch
 
 
 class color:
