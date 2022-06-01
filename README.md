@@ -1,4 +1,4 @@
-# NIX-challenge-solver
+# NIX Challenge Solver
 Een script/bot om de NIX challenge van het CBL automatisch te spelen.
 De bot is getest met de editie van 2022.
 
